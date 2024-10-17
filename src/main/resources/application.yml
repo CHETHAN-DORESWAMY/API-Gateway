@@ -26,6 +26,6 @@ spring:
           filters: AuthenticationFilter
 
         - id: securityService
-          uri: http://authentication-sr:8080
+          uri: http://authentication-sr:8090
           predicates:
             - Path=/api/auth/**
